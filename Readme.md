@@ -17,7 +17,7 @@ Add Istioctl to your environment
 ```shell curl -L https://istio.io/downloadIstio | sh -
 export PATH="$PATH:/path/to/istioctl"
 
-Install Istio with Gateway API Support:
+# Install Istio with Gateway API Support:
 istioctl install --set profile=default --set values.gateways.istio-ingressgateway.type=LoadBalancer -y
  ```
 Enable Gateway API for Istio:
